@@ -9,7 +9,7 @@
     "routes": [{
         "src": "/.*",
         "headers": {
-          "cache-control": "s-maxage=0"
+          "cache-control": "s-maxage=0,Origin Control: Off"
         }
       }]
   }
