@@ -7,7 +7,8 @@
         }
     ],
     "routes": [{
-        "src": "/.*",
+        "src": "/(.*)",
+        "dest":"/",
         "headers": {
           "cache-control": "s-maxage=0,Origin Control: Off"
         }
